@@ -1,10 +1,13 @@
-
+import Chai from './chai.jsx';
 
 function App() {
+  const username  = "chai aur code"
 
   return (
     <>
-      <h1>Vite + React</h1>
+    <Chai/>
+    <h1>chair or react {username }</h1>
+
     </>
   )
 }
